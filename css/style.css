@@ -1,0 +1,133 @@
+body{
+    font-size: 16px;
+    font-weight: 100;
+    overflow: hidden;
+    color:aliceblue;
+    margin: 5px;
+    background-color: rgb(77, 70, 70);
+}
+#wrapper{
+
+    display: flex;
+    flex-direction: row;
+}
+#left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#right{
+    display: flex;
+    flex: 2;
+    background: red;
+    
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#signin{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+#signin .link a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size:0.9rem;
+
+}
+#signin form{
+    width: 60%;
+    padding: 30px;
+}
+#signin label {
+    font-size: 16px;
+    
+    line-height: 30px;
+}
+#signin .logo{
+    margin-bottom: 20px;
+}
+#signin .logo img{
+    width: 300px;
+ }
+ .primary:hover{
+    background-color: blue;
+ }
+ .primary {
+    margin-top: 5px;
+    padding: 0.7rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 500;
+    background: rgb(248, 81, 4);
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    width: 177px;
+    transition: all 0.5s;
+}
+#signin text{
+    width: 200;
+    background: rgb(12, 11, 11);
+    border: 1px solid rgb(158, 145, 145);
+}
+#signin .second, .or, .link{
+    width:60%;
+}
+#signin.or{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.2rem;
+    align-items: center;
+}
+#signin .or .bar{
+    flex: auto;
+    border:none;
+    height:1px;
+   
+}
+.second {
+   margin-top: 5px;
+   padding: 0.7rem 1rem;
+   
+   display: block;
+   border: 1px solid white;
+   
+   border-radius: 2px;
+   font-weight: 500;
+   background:black;
+   color:rgb(139, 129, 129);
+   text-decoration: none;
+   cursor: pointer;
+   text-align: center;
+   transition: all 0.5s;
+}
+.second:hover{
+    background-color: blue;
+}
+.main{
+    color:white;
+    text-align: center;
+    font-size: 0.8rem;
+    max-width: 80%;
+    padding:5rem;
+} 
+.main a{
+    color:rgb(255, 72, 0);
+    text-decoration: underline;
+}
+
